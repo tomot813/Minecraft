@@ -22,7 +22,7 @@ function clearDate(){
     sessionStorage.removeItem("login"); //localStorage || sessionStorage
     sessionStorage.removeItem("date"); //localStorage || sessionStorage
 
-    window.location.href = "./html/singIn.html"
+    window.location.href = "./html/profile.html"
 }
 
 document.getElementById("logout").addEventListener('click', clearDate);
