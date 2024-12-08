@@ -7,7 +7,8 @@ let sex = sessionStorage.getItem("sex");
 
 
 if(!login || !date){
-    window.location.href = "../html/singIn.html"
+    window.location.href = "./html/singIn.html"
+    alert("s")
 
 }else{
     document.getElementById("username").innerText = login;
