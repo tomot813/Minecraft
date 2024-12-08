@@ -7,7 +7,7 @@ let sex = sessionStorage.getItem("sex");
 
 
 if(!login || !date){
-    window.location.href = "Minecraft/html/singin.html"
+    window.location.href = "../sf/html/singin.html"
     alert("s")
 
 }else{
