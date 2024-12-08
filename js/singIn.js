@@ -1,4 +1,6 @@
-
+        sessionStorage.setItem("login", "");
+        sessionStorage.setItem("date","");
+        sessionStorage.setItem("sex", "");
 
 function singIn(){
     let login = document.getElementById("login_input").value;
