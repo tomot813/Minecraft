@@ -27,3 +27,5 @@ function clearDate(){
 
 document.getElementById("logout").addEventListener('click', clearDate);
 
+
+
