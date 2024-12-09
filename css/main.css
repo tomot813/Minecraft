@@ -12,8 +12,7 @@
 
 
 body{
-    background-color: rgb(244, 244, 244);
-    /*background-color: rgb(52, 153, 52);*/
+    background-color: rgb(52, 153, 52);
     font-family:'MinecraftTen';
     text-shadow: 0vw 0.3vw 0vw rgb(98, 98, 98);
     color: white;
