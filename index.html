@@ -154,9 +154,59 @@
 
         <!-------------------| container-quest |------------------------------>
         <div class="container-quest" id="quest">
+            <h1>TEST</h1>
+
+            <form name="test_form" novalidate class="test-form">
+                <div class="test-column-one">
+                    <div class="q1">
+                        <h2>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                        <p class="true"><input type="radio"  name="q1" class="q-radio" value="true">Live</p>
+                        <p><input type="radio" name="q1" class="q-radio">Live</p>
+                        <p><input type="radio" name="q1" class="q-radio">Live</p>
+                        <p><input type="radio" name="q1" class="q-radio">Live</p>
+
+                    </div>
+
+                    <div class="q2">
+                        <h2>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                        <p><input type="radio" name="q2" class="q-radio">Live</p>
+                        <p><input type="radio" name="q2" class="q-radio">Live</p>
+                        <p class="true"><input type="radio" name="q2" class="q-radio" value="true">Live</p>
+                        <p><input type="radio" name="q2" class="q-radio">Live</p>
+
+                    </div>
+
+                    <div class="q3">
+                        <h2>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                        <p><input type="radio" name="q3" class="q-radio">Live</p>
+                        <p><input type="radio" name="q3" class="q-radio">Live</p>
+                        <p><input type="radio" name="q3" class="q-radio">Live</p>
+                        <p class="true"><input type="radio" name="q3" class="q-radio" value="true">Live</p>
+
+                    </div>
+                </div>
+                <div class="border"></div>
+
+                <div class="test-column-two">
+                    <h2>4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                    <input type="text" id="q4" name="q4" required pattern="[lL]ive">
+                    <label for="q4" class="q4 true_text">Live</label>
+
+                    <h2>5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                    <input type="text" id="q5" name="q5" required pattern="[dD]ragon">
+                    <label for="q5" class="q5 true_text">Dragon</label>
+
+                    <h2>6. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magni.</h2>
+                    <input type="text" id="q6" name="q6" required pattern="[bB]edrock">
+                    <label for="q6" class="q6 true_text">Bedrock</label>
+                </div>
+                
+                <button type="submit" class="test" >send</button>
+            </form>
+
+            <button id="reset" class="reset">reset</button>
 
 
-            <h1>HEllo</h1>
         </div>
 
 
@@ -192,6 +242,8 @@
 <script src="./js/mob.js"></script>
 
 <script src="./js/profile.js"></script>
+
+<script src="./js/test.js"></script>
 
 </body>
 </html>

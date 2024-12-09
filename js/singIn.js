@@ -11,6 +11,7 @@ function singIn(){
         sessionStorage.setItem("login", login);
         sessionStorage.setItem("date",date);
         sessionStorage.setItem("sex", sex);
+        sessionStorage.setItem("result", 0);
     
         window.location.href = "../index.html"
     }else{
